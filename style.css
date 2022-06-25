@@ -1,0 +1,114 @@
+/* Aplicando reset no css padrão */
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  outline: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* CENTRALIZANDO TODO NOSSO CONTEUDO */
+body {
+  background: #121212;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  padding: 25px;
+  margin: 25px;
+  width: 476px;
+  height: 498px;
+  background-color: white;
+  border-radius: 8px;
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.email, .password{
+  padding: 10px;
+  margin-top: 20px;
+  width: 428px;
+  height: 49px;
+  color: #464646;
+  background-color: #e5e5e5;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+::placeholder{
+  color: #464646;
+}
+
+.acess {
+  padding: 10px;
+  margin-top: 20px;
+  width: 428px;
+  height: 49px;
+  color: #ffffff;
+  background-color: #121212;
+  border-radius: 4px;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.acess:hover{
+  opacity: 0.9;
+  transition: 0.5s;
+}
+.or {
+  padding: 10px;
+  margin-top: 65px;
+  width: 428px;
+  height: 49px;
+  color: #464646;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 100;
+}
+
+.twitter {
+  text-align: left;
+  padding: 10px;
+  margin-top: 0px;
+  width: 428px;
+  height: 36px;
+  color: #ffffff;
+  background-color: #56a7f2;
+  border-radius: 4px;
+  font-weight: lighter;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.twitter:hover{
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.facebook {
+  text-align: left;
+  padding: 10px;
+  margin-top: 15px;
+  width: 428px;
+  height: 36px;
+  color: #ffffff;
+  background-color: #1e3c72;
+  border-radius: 4px;
+  font-weight: lighter;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.facebook:hover{
+  opacity: 0.8;
+  transition: 0.5s;
+}
